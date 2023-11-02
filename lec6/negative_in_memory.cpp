@@ -2,7 +2,7 @@
 #include<algorithm>
 using namespace std;
 int main() {
-    int n=-10;
+    int n=5;
     int k=abs(n);
     int ans=0,i=1;
     while(k!=0){
@@ -29,6 +29,6 @@ int main() {
         ans=ans/10;
         // cout<<an<<endl;
     }
-    // cout<<an;
+    cout<<an;
     
 }
